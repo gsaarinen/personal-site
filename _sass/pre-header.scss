@@ -1,0 +1,35 @@
+.pre-header {
+  background-image: url(./assets/IMG_1018.jpg);
+  height: 100vh;
+  background-size: cover;
+
+  .pre-header-text {
+    display: flex;
+    vertical-align: middle;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    h1 {
+      font-size: 100px;
+      height: 100%;
+      width: 100%;
+      /*position: absolute;*/
+
+
+      /*text-align: center;*/
+      color: rgba(255,255,255,0.4);
+      /*font-family: monospace;*/
+    }
+  }
+  h4 {
+    position: absolute;
+    font-size: 75px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    margin-left: 50%;
+  }
+}
