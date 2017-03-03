@@ -12,11 +12,11 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    h1 {
+    h1, {
       font-size: 100px;
       height: 100%;
       width: 100%;
-      /*position: absolute;*/
+      position: relative;
       color: rgba(255,255,255,0.6);
       /*font-family: monospace;*/
     }
@@ -27,6 +27,6 @@
     bottom: 0;
     left: 0;
     text-align: center;
-    margin-left: 50%;
+    margin-left: 46%;
   }
 }
