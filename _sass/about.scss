@@ -1,7 +1,23 @@
 .about-section {
   max-height: 500px;
+  .splash-text {
+    h1, h2 {
+      font-size: 100px;
+      font-family: 'Lekton', sans-serif;
+      margin-bottom: 20px;
+    }
+  }
 }
 
-.container {
+.img-container {
+  width: 50%;
+  height: 250px;
+  padding: 50px;
+  text-align: center;
+  background: pink;
+  border: 1px solid black;
+  img {
+    text-align: center;
 
+  }
 }

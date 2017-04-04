@@ -1,5 +1,6 @@
 .pre-header {
-  background-image: url(https://static.pexels.com/photos/96857/pexels-photo-96857.jpeg);
+  background-image: url('/css/assets/sky.jpg');//url(https://static.pexels.com/photos/96857/pexels-photo-96857.jpeg);
+  background-color: white;
   height: 100vh;
   background-size: cover;
 
@@ -13,13 +14,27 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
     h1, {
-      font-size: 70px;
+      font-size: 100px;
       height: 100%;
       width: 100%;
+      // 3d effect
+      display: inline;
       position: relative;
-      color: rgba(255,255,255,0.6);
-      /*font-family: monospace;*/
+      letter-spacing: -5px;
+      //color: rgba(0,0,255,0.5);
+      color: rgba(255,255,255,0.5);
+      font-family: 'Lekton', sans-serif;
+      font-weight: bold;
+      //transform: rotate(-25deg);
+      }
+    /*
+    h1:after {
+      content: "garret_s";
+      position: absolute; left: 8px; top: 4px;
+      //color: rgba(255,0,0,0.5);
+      color: pink;
     }
+    */
   }
   h4 {
     position: absolute;

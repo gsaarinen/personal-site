@@ -24,7 +24,7 @@ $('.main_h li a').click(function() {
     }
 });
 
-// Navigation Scroll 
+// Navigation Scroll
 $('nav a').click(function(event) {
     var id = $(this).attr("href");
     var offset = 70;
@@ -34,3 +34,19 @@ $('nav a').click(function(event) {
     }, 500);
     event.preventDefault();
 });
+
+//$(function() {
+//  $("#pointer").effect("bounce", { times:3}, distance:200 }, 300 );
+//});
+
+$(window).load(function() {
+    $('#pointer').effect("bounce", {
+        times: 4,
+        distance: 200
+    }, 400).click(function() {
+        $(this).effect("bounce", {
+            times: 4,
+            distance: 200
+        }, 400);
+    });
+})

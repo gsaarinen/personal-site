@@ -1,11 +1,14 @@
 ---
 ---
-
+@import url('https://fonts.googleapis.com/css?family=Lekton|Open+Sans');
 @import "bootstrap";
 @import "custom";
 @import "pre-header";
 @import "header";
 @import "work";
+@import "footer";
+
+
 
 .brand-img {
   max-height: 30px;
@@ -15,6 +18,8 @@
   margin-top: 200px;
   h1, h2 {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
     margin-bottom: 200px;
 }
@@ -22,4 +27,8 @@
   text-align: center;
   margin-top: 50px;
   font-size: 20px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
