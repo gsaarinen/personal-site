@@ -1,12 +1,14 @@
 ---
 ---
 @import url('https://fonts.googleapis.com/css?family=Lekton|Open+Sans');
+@import "about";
 @import "bootstrap";
 @import "custom";
 @import "pre-header";
 @import "header";
 @import "work";
 @import "footer";
+@import "contact";
 
 
 
@@ -14,20 +16,7 @@
   max-height: 30px;
 }
 
-.temp-about-section {
-  margin-top: 200px;
-  h1, h2 {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-    margin-bottom: 200px;
-}
-.communication {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 20px;
-}
+
 
 body {
   font-family: 'Open Sans', sans-serif;

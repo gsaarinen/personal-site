@@ -2,22 +2,38 @@
   max-height: 500px;
   .splash-text {
     h1, h2 {
-      font-size: 100px;
+      font-size: 150px;
       font-family: 'Lekton', sans-serif;
-      margin-bottom: 20px;
+      //margin-bottom: 20px;
     }
   }
 }
 
 .img-container {
-  width: 50%;
-  height: 250px;
   padding: 50px;
   text-align: center;
-  background: pink;
-  border: 1px solid black;
   img {
     text-align: center;
-
   }
 }
+
+.lead-text {
+  margin: auto;
+  align-self: center;
+  max-width: 50%;
+  //padding: 10px 20px;
+}
+
+.temp-about-section {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+    //margin-bottom: 50px;
+  }
+    //margin-bottom: 200px;
+}
+ .wave {
+   font-size: 100px;
+ }

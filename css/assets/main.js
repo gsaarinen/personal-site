@@ -39,14 +39,18 @@ $('nav a').click(function(event) {
 //  $("#pointer").effect("bounce", { times:3}, distance:200 }, 300 );
 //});
 
-$(window).load(function() {
-    $('#pointer').effect("bounce", {
-        times: 4,
-        distance: 200
-    }, 400).click(function() {
-        $(this).effect("bounce", {
-            times: 4,
-            distance: 200
-        }, 400);
-    });
+//$(window).on('load', function() {
+//    $('#pointer').effect("bounce", {
+//        times: 4,
+//        distance: 200
+//    }, 400).click(function() {
+//        $(this).effect("bounce", {
+//            times: 4,
+//            distance: 200
+//        }, 400);
+//    });
+//})
+
+$(function(){
+    $("#pointer").effect("bounce", { times:3 }, 300);
 })
